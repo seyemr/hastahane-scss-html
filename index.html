@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hospital web site using html,scss,javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <!--boxicon cdn-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link Swiper's Css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="h3" class="nav-logo">
+                <h3>
+                    Hasta-Hane
+                </h3>
+            </a>
+            <ul id="nav-items">
+                <li><a href="">Anasayfa</a></li>
+                <li><a href="#services">Hizmetlerimiz</a></li>
+                <li><a href="#specialists">Uzmanlarımız</a></li>
+                <li><a href="#swiper"></a>Görüşler</li>
+                <li><a href="#apointment" class="btn">Randevu Alın</a></li>
+            </ul>
+            <button id="open-nav-btn"><i class='bx bx-menu'></i></button>
+        </div>
+    </nav>
+
+    <!--===================navbar bitiş=========================-->
+
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Herkes İçin Eksiksiz Sağlık Çözümleri</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi magnam voluptatum ea rerum nihil,
+                    nesciunt expedita quidem necessitatibus vero eligendi deleniti architecto recusandae sit aperiam
+                    totam placeat aut at voluptate?
+                </p>
+                <a href="#appointment" class="btn">Randevu Alın </a>
+            </div>
+            <div class="header-image">
+                <img src="assets/header.svg" alt="header image">
+            </div>
+        </div>
+    </header>
+
+    <!--===================Header Bitiş=========================-->
+
+    <section id="services">
+        <h2>Hizmetlerimiz</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum eveniet, repellendus ex
+        </p>
+        <div class="container">
+            <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                    <h4>Online Randevu</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bx-trophy'></i>
+                <div>
+                    <h4>Nitelikli Doktorlar</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bx-donate-heart'></i>
+                <div>
+                    <h4>Özel Destek</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bx-first-aid'></i>
+                <div>
+                    <h4>Acil Durum İhtiyacı</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bxl-meta'></i>
+                <div>
+                    <h4>İyi Bakılmış</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+            <article>
+                <i class='bx bxs-book-content'></i>
+                <div>
+                    <h4>24 Saat Hizmet</h4>
+                    <small>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptates assumenda tempore
+                        repellendus at quod non adipisci nesciunt id voluptatum.
+                    </small>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--====================Section bölüm 1 Bitiş========================-->
+
+    <section id="specialists">
+        <h2>Üst Düzey Uzmanlarımız</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, veniam. Deserunt, pariatur dolorem? Dolor
+            facilis, unde harum minima non possimus.
+        </p>
+        <div class="container">
+            <article>
+                <div class="specialists-image">
+                    <img src="./assets/specialist1.jpg" alt="specialists">
+                </div>
+                <div class="specialists-details">
+                    <h4>Dr. Kwadjo Nkansa</h4>
+                    <small>Cerrahi Uzmanı</small>
+                </div>
+                <div class="specialists-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+905555555" class="spealists-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialists-image">
+                    <img src="./assets/specialist2.jpg" alt="specialists">
+                </div>
+                <div class="specialists-details">
+                    <h4>Dr. Fella Makafui</h4>
+                    <small>Anestezi Uzmanı</small>
+                </div>
+                <div class="specialists-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+905555555" class="spealists-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialists-image">
+                    <img src="./assets/specialist3.jpg" alt="specialists">
+                </div>
+                <div class="specialists-details">
+                    <h4>Dr. Liza Apedo</h4>
+                    <small>Ortapedi Uzmanı</small>
+                </div>
+                <div class="specialists-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+905555555" class="spealists-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialists-image">
+                    <img src="./assets/specialist4.jpg" alt="specialists">
+                </div>
+                <div class="specialists-details">
+                    <h4>Dr. Abigail Brown</h4>
+                    <small>Kariyoloji Uzmanı</small>
+                </div>
+                <div class="specialists-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+905555555" class="spealists-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+        </div>
+    </section>
+
+
+    <!--======================uzman doktorlar sonu======================-->
+
+    <section id="testemonials" class=" swiper mySwiper">
+        <h2>Hastalarımız Neler Söylüyor</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deserunt possimus consequatur
+            sunt soluta?
+        </p>
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar1.jpg" alt="Patient one">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Nana Ama McBrown</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar2.jpg" alt="Patient two">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Jhon Dumelo</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar3.jpg" alt="Patient three">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Edem Quist</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar4.jpg" alt="Patient four">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Chantel Nontokoza</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar5.jpg" alt="Patient five">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Jachie Appiah</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar6.jpg" alt="Patient six">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Daiana Ayi</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+            <article class="swiper-slide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis tempore deserunt
+                    similique!
+                    Vel voluptatibus
+                    veniam placeat earum sint optio, perspiciatis harum, soluta veritatis laborum modi velit, amet
+                    delectus et.
+                </p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar7.jpg" alt="Patient seven">
+                    </div>
+                    <div class="patient-detail">
+                        <h5>Jhon Doe</h5>
+                        <small>Hasta</small>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!--===================Hasta Görüşleri sonu=========================-->
+    <section id="apointment">
+        <div class="container">
+            <div class="info">
+                <h2>Bir Randevu Alın</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolor? Nostrum quasi laborum suscipit
+                    nulla ratione!
+                </p>
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-user"></i>
+                    </div>
+                    <div>
+                        <h4>Deneyimli Doktorlar</h4>
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis,
+                            necessitatibus assumenda illum quas, voluptatum ipsum provident recusandae
+                        </small>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-band-aid"></i>
+                    </div>
+                    <div>
+                        <h4>Gelişmiş Teknoloji</h4>
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis,
+                            necessitatibus assumenda illum quas, voluptatum ipsum provident recusandae
+                        </small>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-first-aid"></i>
+                    </div>
+                    <div>
+                        <h4>Acil Yardım</h4>
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis,
+                            necessitatibus assumenda illum quas, voluptatum ipsum provident recusandae
+                        </small>
+                    </div>
+                </article>
+            </div>
+            <form action="https://formspree.io/f/mjvqyjnq" method="POST">
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" placeholder="Enter Your Name" name="Patient's Name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon Numarası</label>
+                    <input type="number" placeholder="Enter Your Number" name="Phone Number" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Tarih</label>
+                    <input type="date" placeholder="Choose a  Date" name="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="department">Bölüm Seçiniz</label>
+                    <select name="Department" id="department" required>
+                        <option value="Department One">Birinci Bölüm</option>
+                        <option value="Department Two">İkinci Bölüm</option>
+                        <option value="Department Three">Üçüncü Bölüm</option>
+                        <option value="Department Four">Dördüncü Bölüm</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="doctor">Doktor Seçiniz</label>
+                    <select name="Doctor" id="doctor" required>
+                        <option value="Doctor One">Birinci Doktor</option>
+                        <option value="Doctor Two">İkinci Doktor</option>
+                        <option value="Doctor Three">Üçüncü Doktor</option>
+                        <option value="Doctor Four">Dördüncü Doktor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj Ekleyin</label>
+                    <textarea name="Added Message" id="message" rows="6" placeholder="Add a message"
+                        required></textarea>
+                </div>
+                <input type="submit" value="Submit Request" class="btn-primary">
+            </form>
+        </div>
+    </section>
+
+    <!--===================randevu alma sonu=========================-->
+
+    <footer>
+        <div class="container">
+            <article>
+                <a href="#" class="footer-logo">
+                    <h3>Hasta-Hane</h3>
+                </a>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam!
+                </p>
+                <div>
+                    <i class="bx bxs-phone"></i>
+                    <small>+905555555555</small>
+                </div>
+                <div>
+                    <i class="bx bx-mail-send"></i>
+                    <small>support@hastahane.com</small>
+                </div>
+            </article>
+            <article>
+                <h3>Destek</h3>
+                <a href="#">Gizlilik Politikası</a>
+                <a href="#">Çerez Politikası</a>
+                <a href="#">Satın Alma Politikası</a>
+                <a href="#">Şartlar & Koşullar</a>
+                <a href="#">Kariyer</a>
+            </article>
+            <article>
+                <h3>Menü</h3>
+                <a href="#">Anasayfa</a>
+                <a href="#services">Hİzmetlerimiz</a>
+                <a href="#testimonials">Görüşler</a>
+                <a href="#appointment" class="btn-primary">Randevu Alın</a>
+            </article>
+            <article>
+                <h3>Bize Ulaşın</h3>
+                <p>Basın</p>
+                <p>SSS</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </article>
+        </div>
+        <div class="copyright">
+            <small>&copy; Telif hakkı Hasta-Hane'ye aittir. 2023 Tüm hakları saklıdır</small>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
